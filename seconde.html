@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 버튼 태그 -->
+    <button>
+        버튼
+    </button>
+    <button disabled>
+        버튼
+    </button>
+    <button type="reset">
+        버튼
+    </button>
+    <button type="submit">
+        버튼
+    </button>
+    <!-- 리스트 태그 -->
+    <h3>
+        프로그래밍 언어 목록
+    </h3>
+    <ul>
+        <li>자바</li>
+        <li>파이썬</li>
+        <li>C</li>
+    </ul>
+    <!-- 순서가 있는 리스트 -->
+    <ol>
+        <li>자바</li>
+        <li>파이썬</li>
+        <li>C
+            <ul>
+                <li>C++</li>
+                <li>C#
+                    <ul>
+                        <li>F#</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <!-- 순서가 있는 리스트 -->
+    <h3>순서가 있는 리스트</h3>
+    <ol type="1">
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+    </ol>
+    <ol type="A">
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+    </ol>
+    <ol type="i">
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+    </ol>
+    <ol type="I">
+        <li>첫 번째</li>
+        <li>두 번째</li>
+        <li>세 번째</li>
+    </ol>
+    <!-- 표 태그 -->
+    <table>
+        <tr>
+            <td>첫 번째 셀</td>
+        </tr>
+        <tr>
+            <td>두 번째 셀, 두 번째 행</td>
+        </tr>
+        <tr>
+            <td>세 번째 셀</td>
+        </tr>
+    </table>
+    <style>
+        td { border: solid 1px black;}
+    </style>
+    <!-- colspan -->
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td colspan="2">3</td>
+        </tr>
+        <tr>
+            <td colspan="2">마지막 셀</td>
+        </tr>
+    </table>
+
+    <!-- rowspan -->
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td colspan="2">마지막 셀</td>
+        </tr>
+    </table>
+
+    <!-- 하이퍼링크 태그 -->
+    <a href="https://www.naver.com">네이버</a>
+    <a href="https://www.naver.com" target="_blank">네이버(새 창에서 열기)</a>
+    <!-- 이미지 태그 -->
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MjlfMTkg%2FMDAxNjkzMjk5NDkxNjM3.6v2lXwV9ql-8nZOTafpY4mQI7pcjs_y51F6KZz7hZn4g.Q49kMccaKTdf8XUxWsBEt_pQZV3Ig4zgpQTPn34AUxEg.JPEG.dhan0213%2F101%25B0%25A1%25C1%25F6%25C6%25AE%25B7%25A3%25BD%25BA%25C6%25F7%25B8%25D3.jpg%23893x1216&type=ff192_192">
+    <img src="./image/pic.jpeg">
+    <!-- 동영상 태그 -->
+    <video src="./video/Funny Cartoon Sound Effects   No Copyright.mp4"></video>
+    <video controls src="./video/Funny Cartoon Sound Effects   No Copyright.mp4"></video>
+    <video controls autoplay src="./video/Funny Cartoon Sound Effects   No Copyright.mp4"></video>
+    <video muted autoplay src="./video/Funny Cartoon Sound Effects   No Copyright.mp4"></video>
+    <video poster="./image/pic.jpeg" src="./video/Funny Cartoon Sound Effects   No Copyright.mp4"></video>
+    <!-- 음성 태그 -->
+    <audio controls src=""></audio>
+</body>
+</html>
