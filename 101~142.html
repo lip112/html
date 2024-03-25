@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: maru-buri;
+            src: url('/font/maruburi/TTF/MaruBuri-Light.ttf');
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+        .rubik-scribble-regular {
+        font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div style="background: linear-gradient(red, blue);">배경이 그레이디언트입니다.</div>
+    <br>
+    <div style="background: linear-gradient(35deg, red, blue);">35도 각도.</div>
+    <br>
+    <div style="background: linear-gradient(red, blue, yellow);">여러 색을 넣어요</div>
+    <br>
+    <div style="background: radial-gradient(red, blue, yellow); width: 100px; height: 100px;">배경이 그레이디언트입니다.</div>
+    <br>
+    <div style="background: radial-gradient(red 20px, blue 30px, yellow 10px); width: 100px; height: 100px;">배경이 그레이디언트입니다.</div>
+    <br>
+    <p style="color: red;">텍스트 색 입니다.</p>
+    <br>
+    <p style="font-size: 22px;">텍스트 크기 입니다.</p>
+    <br>
+    <p style="letter-spacing: 0px;">텍스트 자간입니다.</p>
+    <p style="letter-spacing: 8px;">텍스트 자간입니다.</p>
+    <p style="letter-spacing: -2px;">텍스트 자간입니다.</p>
+    <br>
+    <p style="line-height: 100%;">텍스트 행간입니다.</p>
+    <p style="line-height: 20px;">텍스트 행간입니다.</p>
+    <p style="line-height: 300%;">텍스트 행간입니다.</p>
+    <br>
+    <h1>기본 white space</h1>
+    <h1 style="white-space: nowrap;">
+        기본 white space
+        줄바꿈 적용이 안됩니다!
+        많은 스페이스 문자도                 무시가 되지요.
+        하지만 텍스트가 폭에 비하여 너무 길면 자동으로 줄바꿈이 되지요.
+    </h1>
+    <h1 style="white-space: pre;">
+        기본 white space
+        줄바꿈 적용이 안됩니다!
+        많은 스페이스 문자도                 무시가 되지요.
+        하지만 텍스트가 폭에 비하여 너무 길면 자동으로 줄바꿈이 되지요.
+    </h1>
+    <h1 style="white-space: pre-wrap;">
+        기본 white space
+        줄바꿈 적용이 안됩니다!
+        많은 스페이스 문자도                 무시가 되지요.
+        하지만 텍스트가 폭에 비하여 너무 길면 자동으로 줄바꿈이 되지요.
+    </h1>
+    <h1 style="white-space: pre-line;">
+        기본 white space
+        줄바꿈 적용이 안됩니다!
+        많은 스페이스 문자도                 무시가 되지요.
+        하지만 텍스트가 폭에 비하여 너무 길면 자동으로 줄바꿈이 되지요.
+    </h1>
+    <br>
+    <h1 style="word-break: keep-all;">Hello World!</h1>
+    <h1 style="word-break: keep-all;">세계 제일 품질</h1>
+    <h1 style="word-break: keep-all;">대한민국 만세!</h1>
+    <h1 style="word-break: keep-all;">잠을 많이 자자.</h1>
+    <br>
+    <h1 style="text-align: center;">중앙</h1>
+    <h1 style="text-align: right;">오른쪽</h1>
+    <h1 style="text-align: left;">왼쪽</h1>
+    <br>
+    <div style="font-weight: 100;">font-weght 100</div>
+    <div style="font-weight: 200;">font-weght 200</div>
+    <div style="font-weight: 300;">font-weght 300</div>
+    <div style="font-weight: 400;">font-weght 400</div>
+    <div style="font-weight: 500;">font-weght 500</div>
+    <div style="font-weight: 600;">font-weght 600</div>
+    <div style="font-weight: 700;">font-weght 700</div>
+    <div style="font-weight: 800;">font-weght 800</div>
+    <div style="font-weight: 900;">font-weght 900</div>
+    <br>
+    <h1 style="font-family: maru-buri, sans-serif;">마루부기 폰트 바꾸기</h1>
+    <br>
+    <h1 class="rubik-scribble-regular">구글에서 폰트 가져오기</h1>
+    
+</body>
+</html>
